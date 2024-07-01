@@ -83,10 +83,10 @@ require (
 	github.com/elastic/go-sysinfo v1.14.0
 	github.com/elastic/go-ucfg v0.8.8
 	github.com/elastic/gosigar v0.14.3
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.16.0
 	github.com/fearful-symmetry/gorapl v0.0.4
 	github.com/fsnotify/fsevents v0.1.1
-	github.com/fsnotify/fsnotify v1.5.1
+	github.com/fsnotify/fsnotify v1.7.0
 	github.com/go-sourcemap/sourcemap v2.1.2+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/go-test/deep v1.0.7
@@ -155,14 +155,14 @@ require (
 	go.uber.org/zap v1.26.0
 	golang.org/x/crypto v0.21.0
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/mod v0.14.0
-	golang.org/x/net v0.21.0
+	golang.org/x/mod v0.16.0
+	golang.org/x/net v0.22.0
 	golang.org/x/oauth2 v0.10.0
-	golang.org/x/sync v0.5.0
+	golang.org/x/sync v0.6.0
 	golang.org/x/sys v0.18.0
 	golang.org/x/text v0.14.0
 	golang.org/x/time v0.3.0
-	golang.org/x/tools v0.16.0
+	golang.org/x/tools v0.19.0
 	google.golang.org/api v0.128.0
 	google.golang.org/genproto v0.0.0-20230920204549-e6e6cdab5c13 // indirect
 	google.golang.org/grpc v1.58.3
@@ -174,7 +174,7 @@ require (
 	gopkg.in/jcmturner/gokrb5.v7 v7.5.0
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools v2.2.0+incompatible
-	gotest.tools/gotestsum v1.7.0
+	gotest.tools/gotestsum v1.12.0
 	howett.net/plist v1.0.0
 	k8s.io/api v0.23.4
 	k8s.io/apimachinery v0.23.4
@@ -277,6 +277,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.23 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/bitfield/gotestdox v0.2.2 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cilium/ebpf v0.13.2 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
@@ -344,7 +345,7 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/markbates/pkger v0.17.1 // indirect
-	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/minio/asm2plan9s v0.0.0-20200509001527-cdd76441f9d8 // indirect
@@ -433,3 +434,5 @@ replace (
 
 // Exclude this version because the version has an invalid checksum.
 exclude github.com/docker/distribution v2.8.0+incompatible
+
+replace github.com/elastic/elastic-agent-system-metrics => /home/beats/elastic-agent-system-metrics/
